@@ -5,7 +5,7 @@ class Book:
         pass
 
     def display(self):
-        print(str(self.title + ", written by " + self.author))
+        print(f'{self.title}, written by {self.author}')
 
 
 book1 = Book('John Steinbeck', 'Of Mice and Men')
